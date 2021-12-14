@@ -1,0 +1,148 @@
+$tf-lightblue: rgba(80, 208, 250, 0.735);
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    scroll-behavior: smooth;
+  }
+  
+  .container-fluid {
+    background-color: rgba(80, 208, 250, 0.735);
+  }
+  
+  .navbar {
+    position: fixed;
+    width: 100vw;
+    border: none;
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 43px;
+  }
+
+  // @TODO: improve method for avoiding the header form hiding content
+  main {
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+    min-height: 80vh;
+
+    p {
+      padding: 20px 10px;
+      text-align: left;
+    }
+  }
+
+  .form-content {
+    background: url(/img/banner.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+      background: rgb(50, 177, 219);
+      width: 30%;
+
+      padding: 40px 20px;
+
+      border-radius: 20px;
+
+      font-family: 'Darker Grotesque', sans-serif;
+      font-size: 1.6rem;
+
+      .form-label {
+        font-size: 1.2em;
+      }
+
+      .fields-center {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .btn {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  .banner {
+    background-image: url(/img/banner.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    .detalhes {
+        background-color: rgba(119, 136, 153, 0.653);
+        width: 75vw;
+        height: 75vh;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20px;
+        h1 {
+            font-family: 'Grechen Fuemen', cursive;
+            font-size: 50px;
+            color: rgb(46, 34, 89);
+            background-color: rgba(80, 208, 250, 0.735);
+            padding: 20px;
+            border-radius: 20px;
+            margin: 50px;
+        }
+
+        p {
+            font-family: 'Darker Grotesque', sans-serif;
+            font-size: 24px;
+            padding: 20px;
+            margin: 50px;
+            border-radius: 20px;
+            color: rgb(46, 34, 89);
+            background-color: rgba(80, 208, 250, 0.735);
+        }
+    }
+  }
+  
+  .destinos {
+    padding-top: 80px;
+  }
+  
+  .figure-caption {
+    font-size: 20px;
+  }
+
+  footer {
+    background: #000;
+
+
+    width: 100%;
+    padding: 20px 10px;
+
+      .student-showcase {
+
+        color: rgb(182, 182, 182);
+
+        h1 {
+          font-size: 1.6rem;
+          font-weight: 600;
+        }
+        p {
+          
+        }
+      }
+  }
+
+  @media (max-width: 1200px) {
+    p {
+        font-size: 16px;
+        font-family: 'Darker Grotesque', sans-serif;
+    }
+}
